@@ -19,6 +19,14 @@ app.get('/xhtml/:id', function(req, res, next){
   res.render('xhtml/' + req.params.id);
 });
 
+app.get('/xhtml/exercise_06|exercise_07/projects', function(req, res, next){
+  if (req.originalUrl === '/xhtml/exercise_06/projects'){
+    res.render('xhtml/exercise_06/projects')
+  } else {
+    res.render('xhtml/exercise_07/projects')
+  }
+});
+
 app.listen(3000, function(){
   console.log('Frontend app listening on port 3000');
 });
