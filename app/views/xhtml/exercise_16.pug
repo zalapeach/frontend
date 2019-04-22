@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    title Frontend | XHTML | Exercise 16
+  body
+    h1 Rellena tu CV
+    form(method='post', action='')
+      fieldset
+        legend Datos b&aacute;sicos
+        label(for='name') Nombre
+        br
+        input#name(type='text')
+        br
+        br
+        label(for='description') Descripci&oacute;n
+        br
+        textarea#description
+        br
+        br
+        label(for='photo') Foto
+        input#photo(type='file', name='photo')
+        br
+        br
+        input#counter(type='checkbox', name='counter')
+        label(for='counter') A&ntilde;adir contador de visitas
+      fieldset
+        legend Datos econ&oacute;micos
+        label(for='price') Precio
+        input#price(type='text')
+        | &nbsp;&euro;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        label(for='taxes') Impuestos
+        select#taxes
+          option(value='4') 4%
+          option(value='7') 7%
+          option(value='16') 16%
+          option(value='25') 25%
+        br
+        br
+        span Promoci&oacute;n
+        br
+        input#none(type='radio', value='1', name='promotion')
+        label(for='none') Ninguno
+        br
+        input#free(type='radio', value='2', name='promotion')
+        label(for='free') Transporte gratuito
+        br
+        input#discount(type='radio', value='3', name='promotion')
+        label(for='discount') Descuento 5%

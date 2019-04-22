@@ -6,11 +6,37 @@ html
     h1 Rellena tu CV
     form(method='post', action='/php/insertar_cv.php', enctype='multipart/form-data')
       label(for='nombre') Nombre
-      input#nombre(type='text', maxlength='30')
+      br
+      input#nombre(type='text', maxlength='30', name='nomber')
+      br
       label(for='apellidos') Apellidos
-      input#apellidos(type='text', maxlength='80')
+      br
+      input#apellidos(type='text', maxlength='80', name='apellidos')
+      br
       label(for='password') Contrase&ntilde;a
-      input#password(type='password', maxlength='10')
+      br
+      input#password(type='password', maxlength='10', name='password')
+      br
       label(for='dni') DNI
-      input#dni(type='text', maxlength='12')
-      label
+      br
+      input#dni(type='text', maxlength='12', name='dni')
+      br
+      span Sexo
+      br
+      input#hombre(type='radio', name='sexo', value='hombre')
+      label(for='hombre') Hombre
+      br
+      input#mujer(type='radio', name='sexo', value='mujer')
+      label(for='mujer') Mujer
+      br
+      br
+      label(for='foto') Incluir mi foto
+      input#foto(type='file', name='foto')
+      br
+      br
+      input#boletin(type='checkbox', name='boletin', checked='checked')
+      label(for='boletin') Suscribirme al bolet&iacute;n de novedades
+      br
+      br
+      input(type='submit', name='submit', value='Guardar cambios')
+      input(type='reset', name='reset', value='Borrar los datos introducidos')

@@ -1,0 +1,81 @@
+doctype html
+html
+  head
+    title Frontend | XHTML | Exercise 15
+  body
+    h1 Rellena tu CV
+    form(method='post', action='')
+      fieldset
+        legend Datos personales
+        label(for='state') Provincia
+        br
+        select#state(name='state')
+          option(value='', selected='selected') - selecciona -
+          option(value='1') Aguascalientes
+          option(value='2') Baja California
+          option(value='3') Baja California Sur
+          option(value='4') Campeche
+          option(value='5') Ciudad de M&eacute;xico
+          option(value='6') Chiapas
+          option(value='7') Chihuahua
+          option(value='8') Coahuila
+          option(value='9') Colima
+          option(value='10') Durango
+          option(value='11') Estado de M&eacute;xico
+          option(value='12') Guanajuato
+          option(value='13') Guerrero
+          option(value='14') Hidalgo
+          option(value='15') Jalisco
+          option(value='16') Michoac&aacute;n
+          option(value='17') Morelos
+          option(value='18') Nayarit
+          option(value='19') Nuevo Le&oacute;n
+          option(value='20') Oaxaca
+          option(value='21') Puebla
+          option(value='22') Queretaro
+          option(value='23') Quintana Roo
+          option(value='24') San Luis Potos&iacute;
+          option(value='25') Sinaloa
+          option(value='26') Sonora
+          option(value='27') Tabasco
+          option(value='28') Tamaulipas
+          option(value='29') Tlaxcala
+          option(value='30') Veracruz
+          option(value='31') Yucat&aacute;n
+          option(value='32') Zacatecas
+        br
+        br
+        label(for='day') Fecha de nacimiento
+        br
+        input#day(type='text', name='day')
+        label(for='month') de
+        select#month(name='month')
+          option(value='1') Enero
+          option(value='2') Febrero
+          option(value='3') Marzo
+          option(value='4') Abril
+          option(value='5') Mayo
+          option(value='6') Junio
+          option(value='7') Julio
+          option(value='8') Agosto
+          option(value='9') Septiembre
+          option(value='10') Octubre
+          option(value='11') Noviembre
+          option(value='12') Diciembre
+        label(for='year') de
+        input#year(type='text', name='year')
+        br
+        br
+        label(for='topic') Temas de inter&eacute;s
+        br
+        select#topic(name='', size='5', multiple='multiple')
+          option(value='1') Administraci&oacute;n de bases de datos
+          option(value='2') An&aacute;lisis y programaci&oacute;n
+          option(value='3') Arquitectura
+          option(value='4') Calidad
+          option(value='5') ERP, CRM, Business intelligence
+          option(value='6') Gesti&oacute;n de proyectos
+          option(value='7') Hardware, redes y seguridad
+          option(value='8') Helpdesk
+          option(value='9') Sistemas
+          option(value='10') Telecomunicaciones
