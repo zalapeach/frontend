@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Frontend | XHTML | Exercise 14
+  body
+    h1 Rellena tu CV
+    form(method='post', action='/php/insertar_cv.php', enctype='multipart/form-data')
+      label(for='nombre') Nombre
+      input#nombre(type='text', maxlength='30')
+      label(for='apellidos') Apellidos
+      input#apellidos(type='text', maxlength='80')
+      label(for='password') Contrase&ntilde;a
+      input#password(type='password', maxlength='10')
+      label(for='dni') DNI
+      input#dni(type='text', maxlength='12')
+      label
