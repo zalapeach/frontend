@@ -1,10 +1,10 @@
 doctype html
-html
+html(lang='en')
   head
     title Frontend | XHTML | Exercise 15
   body
     h1 Rellena tu CV
-    form(method='post', action='')
+    form(method='post', action='#')
       fieldset
         legend Datos personales
         label(for='state') Provincia
@@ -48,7 +48,9 @@ html
         label(for='day') Fecha de nacimiento
         br
         input#day(type='text', name='day')
+        | &nbsp;
         label(for='month') de
+        | &nbsp;
         select#month(name='month')
           option(value='1') Enero
           option(value='2') Febrero
@@ -62,13 +64,15 @@ html
           option(value='10') Octubre
           option(value='11') Noviembre
           option(value='12') Diciembre
+        | &nbsp;
         label(for='year') de
+        | &nbsp;
         input#year(type='text', name='year')
         br
         br
         label(for='topic') Temas de inter&eacute;s
         br
-        select#topic(name='', size='5', multiple='multiple')
+        select#topic(name='topic', size='5', multiple='multiple')
           option(value='1') Administraci&oacute;n de bases de datos
           option(value='2') An&aacute;lisis y programaci&oacute;n
           option(value='3') Arquitectura
