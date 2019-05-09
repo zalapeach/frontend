@@ -1,0 +1,90 @@
+ul, li, h1, h2, h3, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+li { list-style: none; }
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+header, nav, aside, #contenido, #principal, #secundario, footer {
+  border: 2px solid #777;
+}
+
+#noticias, #principal, #secundario {
+  padding: 0.5em;
+}
+
+header {
+  overflow: auto;
+  padding: 1em;
+}
+
+#logo { float: left; }
+
+#buscador { float: right; }
+
+nav {
+  margin-bottom: 0.5em;
+  overflow: auto;
+  padding: 0.5em;
+}
+
+#menu_principal li {
+  display: inline;
+  float: left;
+}
+
+section { overflow: auto; }
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+#publicidad {
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+#contenido {
+  float: right;
+  width: 78%;
+  overflow: auto;
+}
+
+#principal {
+  float: left;
+  width: 73%;
+  box-sizing: border-box;
+}
+
+article { margin-bottom: 1em }
+
+#secundario {
+  float: right;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+img {
+  border: none;
+  width: 100px;
+  float: left;
+  margin: 0.5em;
+}
+
+footer {
+  overflow: auto;
+  padding: 0.5em 0;
+  margin-top: 1em;
+}
+
+.enlaces { float: left; }
+
+.copyright { float: right; }
