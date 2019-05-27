@@ -1,0 +1,128 @@
+doctype html
+html(lang='en')
+  head
+    title Frontend | CSS | Exercise 4
+    link(href='/stylesheets/css/exercise_04.css', rel='stylesheet')
+  body
+    main
+      header
+        #logo
+          h1
+            span LOGOTIPO
+        #buscador
+          form(action='#', method='post')
+            label(for='busqueda') Buscar &nbsp;&nbsp;
+            input#busqueda(name='busqueda', type='text')
+      nav
+        ul#menu_principal
+          li
+            a(href='#') Lorem
+          li
+            a(href='#') Ipsum
+          li
+            a(href='#') Dolor
+          li
+            a(href='#') Sit
+          li
+            a(href='#') Amet
+      section
+        aside
+          #noticias
+            h3
+              a(href='#') Noticias
+            p
+              | #[span.fecha dd/mm/aaaa] #[a(href='#') Lorem ipsum dolor sit amet]
+            p
+              | #[span.fecha dd/mm/aaaa] #[a(href='#') Consectetuer adipiscing elit]
+            p
+              | #[span.fecha dd/mm/aaaa] #[a(href='#') Donec molestie nunc eu sapien]
+            p
+              | #[span.fecha dd/mm/aaaa] #[a(href='#') Maecenas aliquam dolor eget metus]
+            p
+              | #[span.fecha dd/mm/aaaa] #[a(href='#') Fusce tristique lorem id metus]
+            h3
+              a(href='#') Enlaces relacionados
+            ul
+              li
+                a(href='#') Proin placerat
+              li
+                a(href='#') Nulla in felis
+              li
+                a(href='#') Nam luctus
+          #publicidad
+            h3
+              a(href='#') Publicidad
+            p
+              | Etiam fermentum, nisl tincidunt blandit interdum, massa velit
+              | posuere dolor, sed euismod sem odio at mi.
+            p
+              | Duis porta placerat arcu. Nullam felis pede, commodo vel, suscipit
+              | a, molestie vel, felis. Maecenas mattis est vel est.
+            p
+              a(href='#') Seguir leyendo...
+        #contenido
+          #principal
+            article
+              h2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+              img(src='/images/css/imagen.png', alt='Imagen gen&eacute;rica')
+              p
+                | Nullam est lacus, suscipit ut, dapibus quis, condimentum ac,
+                | risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra,
+                | dolor metus fringilla dui, vel aliquet pede diam tempor tortor.
+              p
+                | Vestibulum pulvinar urna et quam. Pellentesque habitant morbi
+                | tristique senectus et netus et malesuada fames ac turpis
+                | egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque
+                | eget ipsum.
+              p
+                | Donec commodo, turpis vel venenatis sollicitudin, quam ante
+                | convallis justo, sed eleifend justo lectus quis sapien. Ut
+                | consequat libero eget est.
+              p
+                a(href='#') Seguir leyendo...
+            article
+              h2 Vivamus lobortis turpis ac ante fringilla faucibus
+              img(src='/images/css/imagen.png', alt='Imagen gen&eacute;rica')
+              p
+                | Quisque eget ipsum. Donec commodo, turpis vel venenatis
+                | sollicitudin, quam ante convallis justo, sed eleifend justo
+                | lectus quis sapien. Ut consequat libero eget est.
+              p
+                | Cum sociis natoque penatibus et magnis dis parturient montes,
+                | nascetur ridiculus mus. Nullam dictum hendrerit neque. Mauris id
+                | ligula non elit mattis semper. Fusce arcu ipsum, tempus eget,
+                | tincidunt at, imperdiet in, mi.
+              p
+                | Sed fermentum cursus dolor. Aenean a diam. Phasellus feugiat.
+                | Donec tempor dignissim sem.
+              p
+                a(href='#') Seguir leyendo...
+          #secundario
+            h2 Phasellus blandit
+            p
+              | Praesent sodales imperdiet augue. Mauris lorem felis, semper eu,
+              | tincidunt eu, sollicitudin eget, sem. Nulla facilisi. Morbi ut
+              | enim ut enim ultricies dapibus.
+            p
+              a(href='#') Seguir leyendo...
+            h2 Nullam vel turpis
+            p
+              | Donec commodo, turpis vel venenatis sollicitudin, quam ante
+              | convallis justo, sed eleifend justo lectus quis sapien. Ut
+              | consequat libero eget est.
+            p
+              a(href='#') Seguir leyendo...
+      footer
+        span.enlaces
+          a(href='#') Nulla
+          | &nbsp;|&nbsp;
+          a(href='#') Pharetra
+          | &nbsp;|&nbsp;
+          a(href='#') Luctus
+          | &nbsp;|&nbsp;
+          a(href='#') Ipsum
+          | &nbsp;|&nbsp;
+          a(href='#') Proin
+          | &nbsp;|&nbsp;
+          a(href='#') Placerat
+        span.copyright &copy; Copyright Lorem ipsum
