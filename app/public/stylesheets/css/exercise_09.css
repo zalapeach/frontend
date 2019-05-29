@@ -1,0 +1,12 @@
+img {
+  border: 1px solid #CCC;
+  padding: 10px;
+  margin: 20px 0 0 20px;
+  float: left;
+}
+
+section {
+  overflow: auto;
+  width: 608px;
+  margin: 0 auto;
+}
