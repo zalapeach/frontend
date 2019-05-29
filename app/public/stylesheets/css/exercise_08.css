@@ -1,0 +1,13 @@
+a {
+  color: #CC0000;
+  display: block;
+  margin: 2em 0;
+  width: 140px;
+}
+
+a:hover {
+  background-color: #CC0000;
+  color: #FFFFFF;
+}
+
+a:visited { color: #CCCCCC; }
