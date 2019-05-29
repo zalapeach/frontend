@@ -1,0 +1,149 @@
+body {
+  color: black;
+  font: 0.9em/1.4em Arial, Helvetica, sans-serif;
+}
+
+ul, li, h1, h2, h3, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+li { list-style: none; }
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: auto;
+  width: 90%;
+}
+
+#noticias, #principal, #secundario { padding: 0.5em; }
+
+#noticias {
+  background-color: #F8F8F8;
+  border: 1px solid #C5C5C5;
+}
+
+#noticias h3 { color: #003366; }
+
+header {
+  overflow: auto;
+  padding: 1em;
+}
+
+#logo {
+  background: url('/images/css/logo.gif') no-repeat;
+  float: left;
+  height: 45px;
+  width: 155px;
+}
+
+#logo span {
+  visibility: hidden;
+}
+
+#buscador { float: right; }
+
+nav {
+  background: url('/images/css/fondo_menu.gif') repeat-x;
+  border-bottom: 1px solid #004C99;
+  margin-bottom: 0.5em;
+  overflow: auto;
+  padding: 0.5em;
+}
+
+nav a {
+  color: white;
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+
+#menu_principal li {
+  display: inline;
+  float: left;
+}
+
+section { overflow: auto; }
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+.fecha {
+  color: #999;
+  display: block;
+}
+
+#publicidad {
+  background-color: #FFF6CD;
+  border: 1px dashed #CC6600;
+  margin-top: 1em;
+  padding: 0.5em;
+  color: #555555;
+}
+
+#publicidad a { color: #CC6600; }
+
+#contenido {
+  float: right;
+  overflow: auto;
+  width: 78%;
+}
+
+#principal {
+  box-sizing: border-box;
+  float: left;
+  width: 73%;
+}
+
+article { margin-bottom: 1em }
+
+article h2 {
+  color: #CC6600;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+article a { color: #CC6600; }
+
+article p { margin: 0.3em 0; }
+
+#secundario {
+  border: 1px solid #CC6600;
+  box-sizing: border-box;
+  float: right;
+  width: 25%;
+}
+
+#secundario h2 {
+  background-color: #DB905C;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+#secundario p { margin: 0.5em 0; }
+
+img {
+  border: none;
+  width: 100px;
+  float: left;
+  margin: 0.5em;
+}
+
+footer {
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #C5C5C5;
+  border-top: 1px solid #C5C5C5;
+  color: #555555;
+  font-size: 1em;
+  margin-top: 1em;
+  overflow: auto;
+  padding: 0.5em 0;
+}
+
+.enlaces { float: left; }
+
+.copyright { float: right; }
