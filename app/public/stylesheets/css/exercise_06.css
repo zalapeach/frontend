@@ -1,0 +1,10 @@
+div {
+  background-color: #E0E0E0;
+  border: 1px solid #CCC;
+  overflow: auto;
+  padding: 10px;
+}
+
+.left { float: left; }
+
+.right { float: right; }
