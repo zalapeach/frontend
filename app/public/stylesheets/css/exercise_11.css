@@ -1,0 +1,33 @@
+td, th {
+  border: 1px solid #333333;
+  text-align: center;
+  padding: 5px;
+}
+
+th[scope='col'] {
+  background: #E1E1E1;
+}
+
+th[scope='row'] {
+  text-align: left;
+  padding: 5px 5px 5px 25px;
+}
+
+tr:nth-child(even) {
+  background: #FFFFCC;
+}
+
+tr:hover { background-color: #FFFF63; }
+
+table {
+  border-collapse: collapse;
+  font: Arial, Helvetica, Sans-serif;
+}
+
+.euro { background: #E6F3FF url('/images/css/euro.png') no-repeat 5px 7px; }
+
+.dolar { background: #E6F3FF url('/images/css/dolar.png') no-repeat 5px 7px; }
+
+.libra { background: #E6F3FF url('/images/css/libra.png') no-repeat 5px 7px; }
+
+.yen { background: #E6F3FF url('/images/css/yen.png') no-repeat 5px 7px; }

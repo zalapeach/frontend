@@ -1,0 +1,19 @@
+ul {
+  padding: 0;
+  width: 200px;
+}
+
+li:first-child { border-top: 1px solid black; }
+
+li {
+  background: #F4F4F4 url('/images/css/flecha_inactiva.png') no-repeat 5px 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 10px 0 10px 25px;
+}
+
+li:hover {
+  background: #E4E4E4 url('/images/css/flecha_activa.png') no-repeat 5px 10px;
+  cursor: pointer;
+}
