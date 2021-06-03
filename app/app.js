@@ -11,6 +11,7 @@ app.get('/', (req, res, next) => {
   res.render('index');
 });
 
+app.use('/hello', require('./routers/hello'));
 app.use('/xhtml', require('./routers/xhtml'));
 app.use('/css', require('./routers/css'));
 
