@@ -15,6 +15,7 @@ app.use('/hello', require('./routers/hello'));
 app.use('/xhtml', require('./routers/xhtml'));
 app.use('/css', require('./routers/css'));
 
-app.listen(80, function(){
-  console.log('Frontend app listening on port 80');
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log('Frontend app listening on port ' + port);
 });
