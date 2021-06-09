@@ -1,5 +1,7 @@
 const express = require('express');
+const https = require('https');
 const path = require('path');
+const fs = require('fs');
 const app = express();
 
 app.set('views', path.join(__dirname, 'views'));
@@ -16,6 +18,12 @@ app.use('/xhtml', require('./routers/xhtml'));
 app.use('/css', require('./routers/css'));
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+const privatekey = fs.readFileSync('frontend.key');
+const certificate = fs.readFileSync('frontend.crt');
+
+https.createServer({
+  key: privatekey,
+  cert: certificate
+}, app).listen(port, () => {
   console.log('Frontend app listening on port ' + port);
 });
